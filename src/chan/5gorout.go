@@ -26,7 +26,7 @@ func main() {
                  секунд...")
     // Некий другой продолжительный по времени выполнения код,
     // вместо которого - просто блокировка на 5 секунд
-    time.Sleep(time.Second * 5)
+    time.Sleep(time.Second * 3)
     close(begin)
     wg.Wait()
 }
